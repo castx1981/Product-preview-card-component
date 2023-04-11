@@ -18,7 +18,7 @@
         extend: {
           colors: {
             'dark-cyan': 'hsl(158, 36%, 37%)',
-            'very-dark-cyan': 'hsl(158, 56%, 27%)',
+            'very-dark-cyan': 'hsl(158, 36%, 21%)',
             'cream': 'hsl(30, 38%, 92%)',
             'very-dark-blue': 'hsl(212, 21%, 14%)',
             'dark-grayish-blue': 'hsl(228, 12%, 48%)',
@@ -53,12 +53,14 @@
         <div class="font-sans text-xs text-dark-grayish-blue line-through">$169.99</div>
       </div>
       <!-- cart container -->
-      <div class="mt-6 py-3 flex justify-center space-x-3 bg-dark-cyan rounded-lg duration-300 hover:bg-very-dark-cyan hover:cursor-pointer">
-        <svg class="mt-0.5" width="15" height="16" xmlns="http://www.w3.org/2000/svg">
-          <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
-        </svg>
-        <a class="inline-block font-sans text-sm text-white underline-none" href="#">Add to Cart</a>
-      </div>
+      <a class="group block rounded-lg mt-6 p-4 bg-dark-cyan hover:bg-very-dark-cyan" href="#">
+        <div class="flex justify-center items-center space-x-3">
+          <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
+          </svg>
+          <p class="font-sans text-sm text-white">Add to Cart</p>
+        </div>
+      </a>
     </div>
   </div>
 </div>
