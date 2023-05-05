@@ -2,17 +2,17 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    fontFamily: {
-      'serif': ['Fraunces', 'serif'],
-      'sans': ['Montserrat', 'sans-serif']
-    },
     extend: {
+      fontFamily: {
+        'serif': ['Fraunces', 'serif'],
+        'sans': ['Montserrat', 'sans-serif']
+      },
       colors: {
-        'dark-cyan': 'hsl(158, 36%, 37%)',
-        'very-dark-cyan': 'hsl(158, 36%, 21%)',
-        'cream': 'hsl(30, 38%, 92%)',
-        'very-dark-blue': 'hsl(212, 21%, 14%)',
-        'dark-grayish-blue': 'hsl(228, 12%, 48%)',
+        'cream': 'hsl(28, 38%, 92%)',
+        'aurometalSaurus': 'hsl(228, 12%, 48%)',
+        'deepAquamarine': 'hsl(157, 36%, 37%)',
+        'deepAquamarineHover': 'hsl(157, 43%, 18%)',
+        'gunmetal': 'hsl(212, 21%, 14%)',
       }
     }
   },
